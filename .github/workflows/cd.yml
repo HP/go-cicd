@@ -1,8 +1,9 @@
 name: cd
 
 on:
+  # Workflow disabled - change to 'main' to re-enable
   push:
-    branches: [main]
+    branches: [workflow-disabled]
   workflow_dispatch:
 
 jobs:
